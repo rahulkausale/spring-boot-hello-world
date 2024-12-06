@@ -26,6 +26,9 @@ jobs:
     needs: build_push_artifacts 
     runs-on: ubuntu-latest
     steps:
+    - name: Display current space
+      run: find .
+    
     - name: 'Deploy'
       run: helm -n default install hello-world ./charts/spring-boot-hello-world-0.1.0.tgz --set tag=latest
       env:

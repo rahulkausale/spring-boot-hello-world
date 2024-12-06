@@ -9,8 +9,8 @@
 name: Assignment 1 (CI)
 
 on:
-  push:
-    branches: [ "feature/**" ]
+  # push:
+  #   branches: [ "feature/**" ]
   pull_request:
     branches: [ "main" ]
 
