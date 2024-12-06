@@ -3,9 +3,9 @@ entries:
   spring-boot-hello-world:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-12-06T17:43:20.178441726Z"
+    created: "2024-12-06T17:52:02.440372348Z"
     description: A Helm chart for Kubernetes
-    digest: 348ce05fbcfd0dbff28e17928fd2b94bfd844dd7437959c6c323254b18189a3d
+    digest: b49c4fd195d3c422b44b488f3438741374379f74688af91a4bd0d4360599eae5
     name: spring-boot-hello-world
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-12-06T17:43:20.178827932Z"
+    created: "2024-12-06T17:52:02.440763739Z"
     description: A Helm chart for Kubernetes
     digest: 92097e154c9bc7bf0e729439ca52fc647a1a909ff7917e67fdc52ad15aa2d0eb
     name: spring-boot-hello-world
@@ -21,4 +21,4 @@ entries:
     urls:
     - https://rahulkausale.github.io/spring-boot-hello-world/charts/charts/spring-boot-hello-world-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-06T17:43:20.177887808Z"
+generated: "2024-12-06T17:52:02.439840334Z"
