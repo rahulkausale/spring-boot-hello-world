@@ -44,7 +44,7 @@ jobs:
       run: mv spring-boot-hello-world-0.1.0.tgz charts/
 
     - name: Generate the index.yaml
-      run: helm repo charts/index --url https://rahulkausale.github.io/spring-boot-hello-world/charts/ .
+      run: helm repo index --url https://rahulkausale.github.io/spring-boot-hello-world/charts/ charts/ 
 
     # - name: Push the helm chart
     #   run: git add charts/ && git commit -m "Pushing chart" && git push
