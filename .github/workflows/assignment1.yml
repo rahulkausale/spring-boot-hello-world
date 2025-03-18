@@ -21,6 +21,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - name: Know the env
+      run: |
+        pwd
+        ls
+        env
     - name: Set up JDK 17
       uses: actions/setup-java@v4
       with:
