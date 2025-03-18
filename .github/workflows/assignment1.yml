@@ -11,6 +11,7 @@ name: Assignment 1 (CI)
 on:
   # push:
   #   branches: [ "feature/**" ]
+  workflow_dispatch:
   pull_request:
     branches: [ "main" ]
 
