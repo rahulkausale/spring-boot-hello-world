@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: rk-mac
+    runs-on: self-hosted
     steps:
     - name: Know the env
       run: |
