@@ -1,0 +1,19 @@
+name: Testing self-hosted runner
+
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: rk-mac
+    steps:
+    - name: Know the env
+      run: |
+        pwd
+        ls
+        env
+    - name: Hello world
+      run: echo "Hello World"
