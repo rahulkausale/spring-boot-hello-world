@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: toolbox-runner
+    runs-on: toolbox-runner-org
     steps:
     - name: Know the env
       run: |
