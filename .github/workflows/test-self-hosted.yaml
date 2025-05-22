@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: toolbox-runner
     steps:
     - name: Know the env
       run: |
