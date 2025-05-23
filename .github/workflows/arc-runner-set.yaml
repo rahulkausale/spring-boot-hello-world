@@ -1,0 +1,23 @@
+name: Testing self-hosted runner (New ARC Runner)
+
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: arc-runner-set
+    steps:
+    - name: Know the env
+      run: |
+        pwd
+        ls
+        env
+    - name: Hello world
+      run: echo "Hello World"
+    - name: Will just sleep for a minute
+      run: sleep 60
+    - name: Goodbye
+      run: echo "Goodbye"
